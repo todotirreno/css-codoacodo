@@ -238,3 +238,33 @@ footer a {
     width: 80px;
     text-align: center;
 }
+
+.tags {
+    display: flex;
+    gap: 4px;
+}
+
+.speakers span {
+    border-radius: 4px;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+}
+
+.javascript {
+    background-color: rgb(255, 188, 2);
+    color: black;
+}
+
+.react {
+    background-color: rgb(13, 123, 131);
+}
+
+.negocios {
+    background-color: gray;
+}
+
+.startups {
+    background-color: red;
+}
