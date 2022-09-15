@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    color:rgb(46, 46, 46);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(46, 46, 46);
+    color: rgb(190, 190, 190);
+    /* color: lightgrey; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    /* font-weight: bold; */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+header a:link, header a:visited, .hero a:link, .hero a:visited, .provincia a:link, .provincia a:visited {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#buy {
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.hero {
+    color: rgb(190, 190, 190);
+    height: 600px;
+    padding: 280px 100px 0px 60%;
+    background: rgba(0, 0, 0, 0.6) url("img/aysa.jpg");
+    background-position:  bottom 40% right 0;
+    background-size: cover;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-blend-mode: darken;
+    margin-bottom: 10px;    
+}
+
+.hero > * {
+    color: white;
+    
+}
+
+.action {
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+}
+
+.container-inner, form, .octubre {
+    margin: auto;
+    width: 800px;
+}
+
+.logo {
+    height: 60px;
+    /* mix-blend-mode: multiply; */
+}
+
+.top-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2em;
+}
+
+.speakers {
+    text-align: center;
+    
+    margin-bottom: 10px;
+}
+
+.speakers > h1:last-of-type {
+    margin-bottom: 10px; 
+}
+
+.speaker-cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: 450px;
+    font-size: 0.8rem;
+
+}
+
+.card-image {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.card-bottom {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.provincia {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.provincia img {
+    width: 50%;
+}
+
+.provincia > div {
+    background-color: rgb(46, 46, 46);
+    color:white;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.provincia > div > div {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.provincia p {
+    margin-bottom: 20px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.speaker-sign-up {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.speaker-sign-up > :first-child, .speaker-sign-up > p:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.speaker-sign-up > p:nth-child(2) {
+    font-size: 30px;
+}
+
+.ignite {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    border: 0.5px solid lightgrey;
+    border-radius: 2px;
+}
+
+input {
+    height: 35px;
+    padding: 0 10px;
+}
+
+form div {
+    width: 800px;
+    display: flex;
+    gap: 5px;
+    
+}
+
+form div input {
+    flex: 1;
+}
+
+textarea {
+    height: 100px;
+    width: 800px;
+    padding: 10px;
+    font-size: 17px;
+    font-family: inherit;
+}
+
+form > p {
+    font-size: 10px;
+    text-align: left;
+}
+
+[type="submit"] {
+    background-color: rgba(94, 173, 41, 0.959);
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(14, 68, 99);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    align-items: center;
+    color: white;
+}
+
+footer a {
+    width: 80px;
+    text-align: center;
+}
